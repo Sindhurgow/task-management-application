@@ -17,13 +17,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "prestart": "npm run build",
-    "prebuild": "npm run clean",
-    "clean": "rimraf build",
-    "postinstall": "npm run build",
-    "predeploy": "npm run build",
+     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "pretest": "npm run build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
